@@ -221,7 +221,7 @@ body {
     .main-wrapper { margin-top: 12vh; margin-left: 0; padding: 20px; }
 }
 .header-logo {
-  height: 0.2rem;      /* Keeps the image height matching the original text height */
+  height: 1rem;      /* Keeps the image height matching the original text height */
   width: auto;        /* Preserves the aspect ratio so it doesn't stretch */
   vertical-align: middle; /* Aligns it perfectly with the navigation links next to it */
 }
