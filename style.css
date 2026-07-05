@@ -23,12 +23,7 @@ body {
 }
 
 /* ==================== 15% 頂部固定導覽列 ==================== */
-.top-navbar {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    /* 頂部固定導覽列 */
+/* ==================== 15% 頂部固定導覽列 ==================== */
 .top-navbar {
     position: fixed;
     top: 0;
@@ -38,9 +33,9 @@ body {
     background-color: rgba(0, 61, 91, 0.9); 
     backdrop-filter: blur(10px); 
     display: flex;
-    justify-content: space-between; /* This brings back your right-side links! */
+    justify-content: space-between; /* Fixes and pushes your text links back to the right */
     align-items: center;
-    padding: 0 40px;                /* Keeps elements away from the very edge */
+    padding: 0 40px;                /* Keeps things nicely inside the screen borders */
     z-index: 1000;
 }
 
@@ -51,12 +46,12 @@ body {
     height: 100%;        
 }
 
-/* Logo Image - Fits perfectly without being cropped */
+/* Logo Image - Scaled perfectly to fit */
 .nav-logo img {
-    height: 8vh;         /* Constrains the image height to fit your 15vh header */
-    width: auto;         /* Keeps original proportions so it doesn't stretch */
+    height: 10vh;        /* Scales the photo to stay comfortably within the 15vh bar */
+    width: auto;         /* Prevents stretching */
     display: block;
-    object-fit: contain; /* Forces the WHOLE image to be visible */
+    object-fit: contain; /* 💡 This forces the WHOLE photo to scale down without cropping */
 }
 
 /* 右側導覽連結 */
@@ -66,6 +61,10 @@ body {
     margin-left: 20px;
     font-weight: bold;
     transition: color 0.3s ease;
+}
+
+.nav-links a:hover {
+    color: var(--accent-gold);
 }
 
 .nav-links a:hover {
