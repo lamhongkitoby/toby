@@ -34,30 +34,17 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0 5%;
 .nav-logo {
-    font-size: 1.5rem; 
-    font-weight: bold; 
-    color: var(--accent-gold); 
-    display: flex;       /* Aligns the image nicely */
+    display: flex;       /* Aligns the image nicely in the container */
     align-items: center; /* Centers the image vertically */
 }
 
 .nav-logo img {
-    height: 60px;        /* Controls the exact height so it fits the header */
-    width: auto;         /* Prevents the image from stretching sideways */
-    display: block;
-    object-fit: contain; /* Ensures the whole image shrinks to fit without being cut off */
-}
-}
-    z-index: 100;
-    border-bottom: 2px solid var(--accent-teal);
-}
-.nav-logo {
-    font-size: 1.5rem;
-    font-weight: bold;
-    color: var(--accent-gold);
-}
+    height: 55px;        /* Forces the image to stay small enough for the header */
+    width: auto;         /* Keeps the original proportions so it doesn't stretch */
+    display: block;      
+    object-fit: contain; /* Ensures the whole image is visible without being cropped */
+} 
 .nav-links a {
     text-decoration: none;
     color: var(--text-light);
