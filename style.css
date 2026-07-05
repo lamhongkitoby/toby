@@ -232,7 +232,7 @@ body {
 .about-photo-container {
   width: 100%;
   max-width: 600px;       /* Restricts the photo from becoming too giant */
-  margin: -280px auto 0px 10%;  /* Aligns it nicely to the left with space below it */
+  margin: -280px auto -40px 10%;  /* Aligns it nicely to the left with space below it */
   text-align: left;
   box-shadow: none;       /* REMOVES the visible outer box/shadow lines completely */
   background: transparent;       /* Ensures no background container elements are visible */
