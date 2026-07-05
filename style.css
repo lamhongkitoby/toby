@@ -34,7 +34,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20 5%;
+    padding: 20px 5%;
     z-index: 100;
     border-bottom: 2px solid var(--accent-teal);
 }
@@ -91,7 +91,7 @@ body {
 
 /* ==================== 主要內容包裹區 ==================== */
 .main-wrapper {
-    margin-top: 15vh;   /* 避開頂部 15% */
+    margin-top: 240px;   /* 避開頂部 15% */
     margin-left: 10vw;  /* 避開左側 10% */
     padding: 40px 5%;
 }
