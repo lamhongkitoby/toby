@@ -34,7 +34,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0 5%;
+    padding: 20 5%;
     z-index: 100;
     border-bottom: 2px solid var(--accent-teal);
 }
@@ -215,10 +215,10 @@ body {
 
 /* 響應式手機板優化 */
 @media (max-width: 768px) {
-    .top-navbar { height: 10vh; }
+    .top-navbar { height: auto; }
     .nav-links { display: none; } /* 手機板暫時隱藏複雜選單 */
     .left-sidebar { display: none; } /* 手機板隱藏側邊欄避免擠壓 */
-    .main-wrapper { margin-top: 12vh; margin-left: 0; padding: 20px; }
+    .main-wrapper { margin-top: 12vh; margin-left: 0; padding: 15px 5%; }
 }
 .header-logo {
   height: 11rem;
