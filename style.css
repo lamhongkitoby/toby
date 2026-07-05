@@ -91,7 +91,7 @@ body {
 
 /* ==================== 主要內容包裹區 ==================== */
 .main-wrapper {
-    margin-top: 240px;   /* 避開頂部 15% */
+    margin-top: 280px;   /* 避開頂部 15% */
     margin-left: 10vw;  /* 避開左側 10% */
     padding: 40px 5%;
 }
@@ -218,7 +218,7 @@ body {
     .top-navbar { height: auto; }
     .nav-links { display: none; } /* 手機板暫時隱藏複雜選單 */
     .left-sidebar { display: none; } /* 手機板隱藏側邊欄避免擠壓 */
-    .main-wrapper { margin-top: 12vh; margin-left: 0; padding: 15px 5%; }
+    .main-wrapper { margin-top: 260px; margin-left: 0; padding: 15px 5%; }
 }
 .header-logo {
   height: 11rem;
