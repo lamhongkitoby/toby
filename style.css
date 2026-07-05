@@ -221,7 +221,7 @@ body {
     .main-wrapper { margin-top: 12vh; margin-left: 0; padding: 20px; }
 }
 .header-logo {
-  height: 1rem;
+  height: 1.5rem;
   width: auto;
   aspect-ratio: auto;    /* Forces the browser to look at the source image file dimensions */
   object-fit: contain;   /* Scaled image will maintain its aspect ratio inside its box */
