@@ -28,7 +28,7 @@ body {
     top: 0;
     left: 0;
     width: 100%;
-    height: 15vh; /* 精準佔用 15% 螢幕高度 */
+    height: auto; /* 精準佔用 15% 螢幕高度 */
     background-color: rgba(0, 61, 91, 0.9); /* 半透明主色 */
     backdrop-filter: blur(10px); /* 磨砂玻璃效果 */
     display: flex;
@@ -91,7 +91,7 @@ body {
 
 /* ==================== 主要內容包裹區 ==================== */
 .main-wrapper {
-    margin-top: 280px;   /* 避開頂部 15% */
+    margin-top: 320px;   /* 避開頂部 15% */
     margin-left: 10vw;  /* 避開左側 10% */
     padding: 40px 5%;
 }
