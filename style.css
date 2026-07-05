@@ -35,14 +35,19 @@ body {
     justify-content: space-between;
     align-items: center;
     padding: 0 5%;
-    .nav-logo {
-    font-size : 1.5 rem ; 
-    font-weight : bold; 
-    color : var ( --accent-gold ); 
-    .nav-logo img {
-    height: 55px;    /* Forces the image to fit perfectly inside your 15vh navbar */
-    width: auto;     /* Maintains the original aspect ratio so it doesn't stretch */
-    display: block;  /* Clears any weird bottom alignment spacing */
+.nav-logo {
+    font-size: 1.5rem; 
+    font-weight: bold; 
+    color: var(--accent-gold); 
+    display: flex;       /* Aligns the image nicely */
+    align-items: center; /* Centers the image vertically */
+}
+
+.nav-logo img {
+    height: 60px;        /* Controls the exact height so it fits the header */
+    width: auto;         /* Prevents the image from stretching sideways */
+    display: block;
+    object-fit: contain; /* Ensures the whole image shrinks to fit without being cut off */
 }
 }
     z-index: 100;
