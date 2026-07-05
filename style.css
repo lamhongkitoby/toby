@@ -222,6 +222,6 @@ body {
 }
 .header-logo {
   height: 2rem;      /* Keeps the image height matching the original text height */
-  width: 120px;        /* Preserves the aspect ratio so it doesn't stretch */
+  width: 360px;        /* Preserves the aspect ratio so it doesn't stretch */
   vertical-align: middle; /* Aligns it perfectly with the navigation links next to it */
 }
