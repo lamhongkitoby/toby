@@ -230,8 +230,8 @@ body {
 /* ==================== About Me Photo Sizing ==================== */
 .about-photo-container {
   width: 100%;
-  max-width: 1000px;       /* Restricts the photo from becoming too giant */
-  margin: -80px auto 30px 0;  /* Aligns it nicely to the left with space below it */
+  max-width: 600px;       /* Restricts the photo from becoming too giant */
+  margin: -140px auto 30px 0;  /* Aligns it nicely to the left with space below it */
   text-align: center;
   box-shadow: none;       /* REMOVES the visible outer box/shadow lines completely */
   background: transparent;       /* Ensures no background container elements are visible */
@@ -244,4 +244,5 @@ body {
   box-shadow: none !important;  /* Removes the shadow that was forming a visible box */
   border: none !important;      /* Removes any ghost outline borders */
   border-radius: 0px;           /* Removes corner rounding so no empty frame artifacts show up */
+  margin: 0 auto;           /* Guarantees the image element centers inside the container */
 }
