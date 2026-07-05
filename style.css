@@ -220,3 +220,8 @@ body {
     .left-sidebar { display: none; } /* 手機板隱藏側邊欄避免擠壓 */
     .main-wrapper { margin-top: 12vh; margin-left: 0; padding: 20px; }
 }
+.header-logo {
+  height: 1.2em;      /* Keeps the image height matching the original text height */
+  width: auto;        /* Preserves the aspect ratio so it doesn't stretch */
+  vertical-align: middle; /* Aligns it perfectly with the navigation links next to it */
+}
