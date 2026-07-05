@@ -14,13 +14,15 @@
     box-sizing: border-box;
     scroll-behavior: smooth; /* 點導覽列時會平滑滾動 */
 }
-body {
-    font-family: "SF Mono", "Fira Code", monospace, Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: var(--bg-main);
-    color: var(--text-light);
-}
+body { 
+    font-family : "SF Mono" , "Fira Code" , monospace , Arial , sans-serif; 
+    margin : 0 ; 
+    padding : 0 ; 
+    background-color : var(--bg-main); 
+    color : var(--text-light); 
+} /* 👈 ADD THIS CLOSING BRACE HERE */
+
+/* ==================== 15% 頂部固定導覽列 ==================== */
 
 /* ==================== 15% 頂部固定導覽列 ==================== */
 /* ==================== 15% 頂部固定導覽列 ==================== */
