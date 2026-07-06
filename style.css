@@ -250,5 +250,5 @@ body {
 #about p {
   font-size: 14px; /* Default is usually 16px. You can adjust this number lower if needed */
   line-height: 1.6; /* Keeps the spacing between lines looking clean and readable */
-  max-width: 500px;
+  max-width: 400px;
 }
