@@ -252,3 +252,27 @@ body {
   line-height: 1.6; /* Keeps the spacing between lines looking clean and readable */
   max-width: 600px;
 }
+/* ==================== Side-by-Side Paragraph Layout ==================== */
+
+.about-side-layout {
+    display: flex;
+    align-items: center;    /* Keeps text and photos centered vertically with each other */
+    justify-content: space-between;
+    gap: 20px;              /* Space between the photos and the text */
+    max-width: 900px;       /* Gives the whole row enough breathing room */
+    margin: 20px 0;
+}
+
+.side-photo {
+    width: 25%;             /* Adjust this percentage if you want the photos wider or narrower */
+    height: auto;
+    object-fit: contain;
+    border: none !important;      /* Explicitly removes any borders */
+    box-shadow: none !important;  /* Explicitly removes any outer container boxes/shadows */
+    background: transparent;
+}
+
+.side-text {
+    width: 45%;             /* Gives the text the remaining space in the middle */
+    margin: 0 !important;
+}
