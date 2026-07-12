@@ -267,3 +267,20 @@ body {
   width: 100% !important; /* Expands the text to full width */
   margin: 0 !important;
 }
+/* 1. Define the gradual appear (fade-in) animation */
+@keyframes gradualAppear {
+  from {
+    opacity: 0;
+    transform: translateY(10px); /* Gives it a slight, elegant upward movement */
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* 2. Create the class to attach to your text */
+.fade-in-text {
+  opacity: 0; /* Starts completely invisible */
+  animation: gradualAppear 1.5s ease-out forwards; /* 1.5s controls how slow it appears */
+}
